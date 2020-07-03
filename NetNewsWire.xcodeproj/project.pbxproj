@@ -1011,6 +1011,9 @@
 		D5F4EDB720074D6500B9E363 /* WebFeed+Scriptability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F4EDB620074D6500B9E363 /* WebFeed+Scriptability.swift */; };
 		D5F4EDB920074D7C00B9E363 /* Folder+Scriptability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F4EDB820074D7C00B9E363 /* Folder+Scriptability.swift */; };
 		DD82AB0A231003F6002269DF /* SharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD82AB09231003F6002269DF /* SharingTests.swift */; };
+		FA6FF66E24AF5A9900F7D3E6 /* AddFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6FF66D24AF5A9900F7D3E6 /* AddFeedView.swift */; };
+		FA6FF66F24AF5A9900F7D3E6 /* AddFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6FF66D24AF5A9900F7D3E6 /* AddFeedView.swift */; };
+		FA6FF67024AF5A9900F7D3E6 /* AddFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6FF66D24AF5A9900F7D3E6 /* AddFeedView.swift */; };
 		FACF1CF824AF42EA00BBF158 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF1CF724AF42EA00BBF158 /* AddView.swift */; };
 		FACF1CF924AF42EA00BBF158 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF1CF724AF42EA00BBF158 /* AddView.swift */; };
 		FACF1CFA24AF42EA00BBF158 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF1CF724AF42EA00BBF158 /* AddView.swift */; };
@@ -2201,6 +2204,7 @@
 		D5F4EDB620074D6500B9E363 /* WebFeed+Scriptability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebFeed+Scriptability.swift"; sourceTree = "<group>"; };
 		D5F4EDB820074D7C00B9E363 /* Folder+Scriptability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+Scriptability.swift"; sourceTree = "<group>"; };
 		DD82AB09231003F6002269DF /* SharingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingTests.swift; sourceTree = "<group>"; };
+		FA6FF66D24AF5A9900F7D3E6 /* AddFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedView.swift; sourceTree = "<group>"; };
 		FACF1CF724AF42EA00BBF158 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		FACF1CFB24AF42F500BBF158 /* AddFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFolderView.swift; sourceTree = "<group>"; };
 		FF3ABF09232599450074C542 /* ArticleSorterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSorterTests.swift; sourceTree = "<group>"; };
@@ -3712,6 +3716,7 @@
 			children = (
 				FACF1CF724AF42EA00BBF158 /* AddView.swift */,
 				FACF1CFB24AF42F500BBF158 /* AddFolderView.swift */,
+				FA6FF66D24AF5A9900F7D3E6 /* AddFeedView.swift */,
 			);
 			path = Add;
 			sourceTree = "<group>";
@@ -4841,6 +4846,7 @@
 				51919FA624AA64B000541E64 /* SidebarView.swift in Sources */,
 				51E4997024A8764C00B667CB /* ActivityManager.swift in Sources */,
 				51E4990F24A808CC00B667CB /* HTMLMetadataDownloader.swift in Sources */,
+				FA6FF66F24AF5A9900F7D3E6 /* AddFeedView.swift in Sources */,
 				51E4993124A8676400B667CB /* FetchRequestOperation.swift in Sources */,
 				51E4992624A80AAB00B667CB /* AppAssets.swift in Sources */,
 				514E6C0624AD2B5F00AC6F6E /* Image-Extensions.swift in Sources */,
@@ -4955,6 +4961,7 @@
 				51A5769724AE617200078888 /* ArticleContainerView.swift in Sources */,
 				51E4991224A808FB00B667CB /* AddWebFeedDefaultContainer.swift in Sources */,
 				51E4993E24A870F900B667CB /* UserNotificationManager.swift in Sources */,
+				FA6FF67024AF5A9900F7D3E6 /* AddFeedView.swift in Sources */,
 				51E4992E24A8676300B667CB /* FetchRequestQueue.swift in Sources */,
 				51E498CF24A8085D00B667CB /* SmartFeed.swift in Sources */,
 				51E4990724A808C300B667CB /* AuthorAvatarDownloader.swift in Sources */,
@@ -5435,6 +5442,7 @@
 				845A29241FC9255E007B49E3 /* SidebarCellAppearance.swift in Sources */,
 				515A5107243D0CCD0089E588 /* TwitterFeedProvider-Extensions.swift in Sources */,
 				845EE7B11FC2366500854A1F /* StarredFeedDelegate.swift in Sources */,
+				FA6FF66E24AF5A9900F7D3E6 /* AddFeedView.swift in Sources */,
 				848F6AE51FC29CFB002D422E /* FaviconDownloader.swift in Sources */,
 				511B9806237DCAC90028BCAA /* UserInfoKey.swift in Sources */,
 				84C9FC7722629E1200D921D6 /* AdvancedPreferencesViewController.swift in Sources */,
